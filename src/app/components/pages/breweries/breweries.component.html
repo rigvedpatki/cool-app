@@ -1,0 +1,9 @@
+<h1>Breweries</h1>
+
+<ul *ngIf="listOfBrewries && listOfBrewries.length > 0">
+  <li *ngFor="let brewery of listOfBrewries">
+    <p class="name">{{ brewery.name }}</p>
+    <p class="country">{{ brewery.country }}</p>
+    <a href="{{ brewery.website_url }}" class="site" target="_blank"> Site </a>
+  </li>
+</ul>
