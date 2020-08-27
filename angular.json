@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cool-app"
+    }
+  },
+  "defaultProject": "cool-app",
+  "cli": {
+    "analytics": false
+  }
 }
